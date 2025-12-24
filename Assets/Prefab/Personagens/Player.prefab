@@ -1628,6 +1628,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 7
   gameInput: {fileID: 0}
+  countersLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &8348994489718148462
 GameObject:
   m_ObjectHideFlags: 0
