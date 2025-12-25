@@ -118,7 +118,6 @@ public class Player : MonoBehaviour
                     moveDir = moveDirZ;
                 }
             }
-
         }
 
         if (canMove)
