@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc1bc586f4a6bc45869aae4ff2dbb24, type: 3}
+  m_Name: LettuceSlice
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6412856310313903689, guid: 6b5cf11e98d6b3e4888c989d43191eab, type: 3}
+  sprite: {fileID: 0}
+  objectName: Lettuce Slice

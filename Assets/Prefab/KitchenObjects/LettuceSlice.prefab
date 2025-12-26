@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4611320059391815793
+--- !u!1 &357585833508713883
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,115 +8,115 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6125075338250440573}
-  - component: {fileID: -1762406708939990634}
+  - component: {fileID: 6412856310313903689}
+  - component: {fileID: -8622210451002578842}
   m_Layer: 0
-  m_Name: CheeseBlock
+  m_Name: LettuceSlice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6125075338250440573
+--- !u!4 &6412856310313903689
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4611320059391815793}
+  m_GameObject: {fileID: 357585833508713883}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8469230385666163488}
+  - {fileID: 5739055962868122886}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-1762406708939990634
+--- !u!114 &-8622210451002578842
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4611320059391815793}
+  m_GameObject: {fileID: 357585833508713883}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f24ae21c868dd644beac25dc5c364a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSO: {fileID: 11400000, guid: 21e8bcd39497df9458ebd418d3560fb9, type: 2}
---- !u!1001 &9105090735323068231
+  kitchenObjectSO: {fileID: 11400000, guid: 7a5930d7901ba004fb9cf61cbcacda57, type: 2}
+--- !u!1001 &8023258556190048387
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 6125075338250440573}
+    m_TransformParent: {fileID: 6412856310313903689}
     m_Modifications:
-    - target: {fileID: 43020922281684701, guid: 469423d3dd95d944480868bfb6a93b4a,
-        type: 3}
-      propertyPath: m_Name
-      value: Cheese Block_Visual
-      objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.12
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.000000021855694
       objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+    - target: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3149915496488738623, guid: b2a1ec69488cdf645b9460c2ea94f684,
+        type: 3}
+      propertyPath: m_Name
+      value: LettuceSlice_Visual
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 469423d3dd95d944480868bfb6a93b4a, type: 3}
---- !u!4 &8469230385666163488 stripped
+  m_SourcePrefab: {fileID: 100100000, guid: b2a1ec69488cdf645b9460c2ea94f684, type: 3}
+--- !u!4 &5739055962868122886 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 852033420072727655, guid: 469423d3dd95d944480868bfb6a93b4a,
+  m_CorrespondingSourceObject: {fileID: 2377179152261694853, guid: b2a1ec69488cdf645b9460c2ea94f684,
     type: 3}
-  m_PrefabInstance: {fileID: 9105090735323068231}
+  m_PrefabInstance: {fileID: 8023258556190048387}
   m_PrefabAsset: {fileID: 0}
