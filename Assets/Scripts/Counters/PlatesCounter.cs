@@ -39,6 +39,7 @@ public class PlatesCounter : BaseCounter
             if (platesSpawnedAmount > 0)
             {
                 // There's at least one plate here
+                CallEventOnInteractCounter();
                 platesSpawnedAmount--;
 
                 KitchenObject.SpawnKitchenObject(plateKitchenObjectSO, player);
