@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: BurguerCoocked
   m_EditorClassIdentifier: 
   prefab: {fileID: 2891863745132315589, guid: 3d97624d765fb15468447aee0a0cbdda, type: 3}
-  sprite: {fileID: 0}
+  sprite: {fileID: 1641361190, guid: 25d0545fe8054004e8942c629fbb0357, type: 3}
   objectName: Burguer Coocked
