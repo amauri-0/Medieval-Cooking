@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 3763367480348958978, guid: 30b09b343b7907a49a4d07244f7474b9, type: 3}
   sprite: {fileID: 0}
-  objectName: Lettuce
+  objectName: Alface

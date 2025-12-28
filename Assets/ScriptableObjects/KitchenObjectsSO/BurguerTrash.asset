@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 174399080425676512, guid: 7f29af78b977f90468b329aecde8a0e3, type: 3}
   sprite: {fileID: -425468118, guid: 25d0545fe8054004e8942c629fbb0357, type: 3}
-  objectName: Burguer Trash
+  objectName: Hamburguer queimado

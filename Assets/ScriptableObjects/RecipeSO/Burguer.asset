@@ -9,9 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecc1bc586f4a6bc45869aae4ff2dbb24, type: 3}
-  m_Name: Bread
+  m_Script: {fileID: 11500000, guid: ec5b448cfc84b2848916037f053a86f2, type: 3}
+  m_Name: Burguer
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6816611518241606890, guid: 059f14d7bf33c2e428248ffd70af973e, type: 3}
-  sprite: {fileID: -449134924, guid: 25d0545fe8054004e8942c629fbb0357, type: 3}
-  objectName: "P\xE3o"
+  kitchenObjectSOList:
+  - {fileID: 11400000, guid: 5ff121d6210fbc34abfb285ca18e3fe2, type: 2}
+  - {fileID: 11400000, guid: 4b41816c94a6ba8428bc0f0088b98004, type: 2}
+  recipeName: Hamburguer

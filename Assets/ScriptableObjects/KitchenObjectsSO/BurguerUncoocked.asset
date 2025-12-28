@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 548604519372254156, guid: 56032a5b8360b694fa431a3503912546, type: 3}
   sprite: {fileID: 0}
-  objectName: Burguer Uncoocked
+  objectName: Hamburguer cru
