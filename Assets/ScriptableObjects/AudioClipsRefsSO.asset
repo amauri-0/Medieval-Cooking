@@ -12,12 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b175307a1c6bde0b8dc097d2e52c459, type: 3}
   m_Name: AudioClipsRefsSO
   m_EditorClassIdentifier: 
-  chop: []
-  deliveryFail: []
-  deliverySucess: []
-  footstep: []
-  objectDrop: []
-  objectPickup: []
-  stoveSizzle: {fileID: 0}
-  trash: []
-  warning: []
+  chop:
+  - {fileID: 8300000, guid: 889db940ca0a61ccab2c320d6c63fca8, type: 3}
+  - {fileID: 8300000, guid: 2c92a6b30c3f536298cf4b1f981e8da4, type: 3}
+  deliveryFail:
+  - {fileID: 8300000, guid: 43ed29f58c3ef3e79b7571976f78086c, type: 3}
+  - {fileID: 8300000, guid: 571ce7730d97dbd35996a9963bd5b42e, type: 3}
+  deliverySucess:
+  - {fileID: 8300000, guid: 8a38643045b38fa0491896e4c9c8225b, type: 3}
+  - {fileID: 8300000, guid: 23df32ee9429e81ebaa0fb73c972bad2, type: 3}
+  footstep:
+  - {fileID: 8300000, guid: f0143b283f0d30fefacc075ef255002f, type: 3}
+  - {fileID: 8300000, guid: e1eab757cfa862a6cae3c3d063af64e6, type: 3}
+  - {fileID: 8300000, guid: 20e9d1b33aef96ab98e329ab5f6de7a2, type: 3}
+  objectDrop:
+  - {fileID: 8300000, guid: 05df2dffe50c30f15bebdacba3815eb2, type: 3}
+  - {fileID: 8300000, guid: 7577542910c2556019e1d363835fd246, type: 3}
+  objectPickup:
+  - {fileID: 8300000, guid: 8b3df88990c2f7b2689d0edaf3eeddf6, type: 3}
+  - {fileID: 8300000, guid: 150c61cfeec51a4ad9fb83e99540ab3d, type: 3}
+  stoveSizzle: {fileID: 8300000, guid: 533dee143586668e59d03540d404a0c2, type: 3}
+  trash:
+  - {fileID: 8300000, guid: 5182d0fb7554c2962805f2c11e617cf2, type: 3}
+  - {fileID: 8300000, guid: 5fbefe4d8007734bca7d2ec169267def, type: 3}
+  warning:
+  - {fileID: 8300000, guid: 764530fdebcf80c0a9d7fe02f086e1ba, type: 3}
+  - {fileID: 8300000, guid: 4a2090534d216c07d9ca88b9d18acf13, type: 3}

@@ -3353,6 +3353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e475f20cddcab2447bba4a3b4ace1c8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioClipRefsSO: {fileID: 11400000, guid: 6cb401ff73005ea24bebea4482abb5c3, type: 2}
 --- !u!4 &1810755900
 Transform:
   m_ObjectHideFlags: 0

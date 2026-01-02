@@ -34,11 +34,3 @@ public class SoundManager : MonoBehaviour
         AudioSource.PlayClipAtPoint(audioClip, position,volume);
     }
 }
-
-/*
-Soundlist from pixabay
-
-erro 1 https://pixabay.com/pt/sound-effects/error-126627/
-erro 2 https://pixabay.com/pt/sound-effects/failed-c%c3%adrculo_vermelho-295059/
-
-*/
