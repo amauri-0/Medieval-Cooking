@@ -20,9 +20,10 @@ public class KitchenGameManager : MonoBehaviour
     }
 
     private State state;
-    private float WaitingToStartTimer = 1f;
-    private float CountdownToStartTimer = 3f;
-    private float GamePlayingTimer = 10f;
+    private float waitingToStartTimer = 1f;
+    private float countdownToStartTimer = 3f;
+    private float gamePlayingTimer;
+    private float gamePlayingTimerMax = 10f;
 
     private void Awake()
     {
@@ -35,8 +36,8 @@ public class KitchenGameManager : MonoBehaviour
         switch (state)
         {
             case State.WaitingToStart:
-            WaitingToStartTimer -= Time.deltaTime;
-            if(WaitingToStartTimer < 0f)
+            waitingToStartTimer -= Time.deltaTime;
+            if(waitingToStartTimer < 0f)
                 {
                     state = State.CountdownToStart;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
@@ -44,17 +45,18 @@ public class KitchenGameManager : MonoBehaviour
                 break;
 
             case State.CountdownToStart:
-            CountdownToStartTimer -= Time.deltaTime;
-            if(CountdownToStartTimer < 0f)
+            countdownToStartTimer -= Time.deltaTime;
+            if(countdownToStartTimer < 0f)
                 {
                     state = State.GamePlaying;
+                    gamePlayingTimer = gamePlayingTimerMax;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
                 }
                 break;
 
             case State.GamePlaying:
-            GamePlayingTimer -= Time.deltaTime;
-            if(GamePlayingTimer < 0f)
+            gamePlayingTimer -= Time.deltaTime;
+            if(gamePlayingTimer < 0f)
                 {
                     state = State.GameOver;
                     OnStateChanged?.Invoke(this, EventArgs.Empty);
@@ -79,6 +81,16 @@ public class KitchenGameManager : MonoBehaviour
 
     public float GetCountdownToStartTimer()
     {
-        return CountdownToStartTimer;
+        return countdownToStartTimer;
+    }
+
+    public bool IsGameOver()
+    {
+        return state == State.GameOver;
+    }
+
+    public float GetGamePlayingTimerNormalized()
+    {
+        return 1 - (gamePlayingTimer / gamePlayingTimerMax);   
     }
 }
