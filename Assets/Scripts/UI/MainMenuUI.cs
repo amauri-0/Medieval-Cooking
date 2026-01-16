@@ -22,6 +22,9 @@ public class MainMenuUI : MonoBehaviour
             Application.Quit();
             Debug.Log("Fechar o jogo");
         });
+
+        //Resetar as animacoes ao voltar do jogo
+        Time.timeScale = 1f;
     }
 
 
