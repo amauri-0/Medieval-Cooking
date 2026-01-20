@@ -4,4 +4,4 @@ Projeto realizado para a disciplina SMD0053 - PROGRAMAÇÃO PARA JOGOS I (2025.2
 
 Alunos: Henrique Segundo (566118) e João Amauri (566937)
 
-SGDD (Short Game Design Document) Link: [https://drive.google.com/file/d/1Ix3hO9pLGyHN5EtR_nDHELzUXfUpFqnq/view?usp=sharing](https://drive.google.com/drive/folders/1rEOvLPKVgYa-57KmY5rgy3rnSutd5G3m?usp=sharing)
+SGDD (Short Game Design Document) Link: [https://drive.google.com/drive/folders/1rEOvLPKVgYa-57KmY5rgy3rnSutd5G3m?usp=sharing](https://drive.google.com/drive/folders/1rEOvLPKVgYa-57KmY5rgy3rnSutd5G3m?usp=sharing)
