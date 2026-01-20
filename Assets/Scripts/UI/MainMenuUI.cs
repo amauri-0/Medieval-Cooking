@@ -8,8 +8,8 @@ public class MainMenuUI : MonoBehaviour
 {
     [SerializeField] private Button playButton;
     [SerializeField] private Button quitButton;
+    [SerializeField] private Button menuButton;
 
-  
     private void Awake()
     {
         playButton.onClick.AddListener(() =>
@@ -21,6 +21,11 @@ public class MainMenuUI : MonoBehaviour
         {
             Application.Quit();
             Debug.Log("Fechar o jogo");
+        });
+
+        menuButton.onClick.AddListener(() =>
+        {
+            Loader.Load(Loader.Scene.MainMenuScene);
         });
 
         //Resetar as animacoes ao voltar do jogo
