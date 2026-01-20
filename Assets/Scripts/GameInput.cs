@@ -27,7 +27,8 @@ public class GameInput : MonoBehaviour
     }
 
         //Evitar bug quando sair para o menu e voltar
-        private void OnDestroy()
+    
+    private void OnDestroy()
     {
         playerInputActions.Player.Interact.performed -= Interact_performed;
         playerInputActions.Player.InteractAlternate.performed -= InteractAlternate_performed;
